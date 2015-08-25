@@ -1,4 +1,4 @@
-1. Basis 
+1.# Basis 
 from numpy import *
 a = arange(15).reshape(3,5)
 a
@@ -12,7 +12,7 @@ b = array([6,7,8])
 b
 type(b) #as same as a
 
-2. Create and Printing
+2. #Create and Printing
           from numpy import *
 ###Dimension
 #One dimensional 
@@ -47,7 +47,7 @@ print b
 c = arange(24).reshape(2,3,4)  #3d array
 print c
 
-3. Basic Operation 
+3.# Basic Operation 
 ###Arithmetic Operations
 a = array([20,30,40,50])
 b = arange(4)
@@ -105,4 +105,4 @@ sqrt(b)
 c = array([2.,-1.,4.])
 add(b,c)
 
-4. Indexing, slicing and Iterating
+4.# Indexing, slicing and Iterating
