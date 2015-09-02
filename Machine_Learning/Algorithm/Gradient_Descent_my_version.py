@@ -61,7 +61,10 @@ for k in range(num_iterations):
             current_b -= learningrate*devirative_b
 
     df4.loc[k] = [compute_error_for_line_given_points(current_b,current_m,points),k] 
-
+final_m = current_m
+final_b = current_b
+print final_m
+print final_b
 #print df4
 #plt.plot(df4)
 
